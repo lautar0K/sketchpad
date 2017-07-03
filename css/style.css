@@ -1,0 +1,16 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+  position: absolute;
+}
+
+p {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: arial;
+  color: white;
+}
