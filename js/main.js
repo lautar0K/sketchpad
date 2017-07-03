@@ -1,5 +1,7 @@
 $(document).ready(function() {
-    $('.submit').on('click', function() {
-        var num = $('.num').val();
-    });
+	for (var i = 1; i <= 38; i++) {
+		for (var j = 1; j <= 37; j++) {
+			$('.pad').append('<div class="pixel"></div>')
+		};
+	}
 });

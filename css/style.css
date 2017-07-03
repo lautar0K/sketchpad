@@ -6,7 +6,7 @@ body {
   width: 100%;
   height: 80px;
   background-color: blue;
-  position: absolute;
+  position: relative;
 }
 
 p {
@@ -19,45 +19,6 @@ p {
   color: white;
 }
 
-.sidebar {
-  margin-top: 80px;
-  height: 90%;
-  width: 150px;
-  float: left;
-  position: absolute;
-  background-color: orange;
-  padding: 10px;
-}
-
-form {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  font-weight: bold;
-}
-
-input, .submit {
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 50px;
-  height: 20px;
-  font-weight: bold;
-}
-
-.submit {
-  border: none;
-  background-color: black;
-  color: white;
-  width: 50px;
-  height: 30px;
-}
-
-.submit:hover {
-  border: 1px solid white;
-}
-
 .pad {
   position: absolute;
   width: 800px;
@@ -65,4 +26,17 @@ input, .submit {
   top: 30%;
   left: 40%;
   margin: -100px 0 0 -180px;
+  background-color: gray;
+  padding: 10px;
+  line-height: 2px;
+}
+
+ .pixel {
+   width: 19px;
+   height: 19px;
+   border: 1px solid black;
+ }
+
+div {
+  display: inline-block;
 }
