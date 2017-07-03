@@ -14,3 +14,13 @@ p {
   font-family: arial;
   color: white;
 }
+
+.sidebar {
+  margin-top: 80px;
+  height: 90%;
+  width: 180px;
+  float: left;
+  position: absolute;
+  background-color: orange;
+  padding: 10px;
+}
